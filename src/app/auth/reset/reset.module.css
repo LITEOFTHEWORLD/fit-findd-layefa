@@ -1,0 +1,57 @@
+.reset_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.reset_icon_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #654321;
+  margin-bottom: 1rem;
+}
+
+.reset_icon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.reset_title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.reset_text {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 300px;
+}
+
+.reset_button {
+  width: 352px;
+  height: 54px;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: #654321;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.reset_button:hover {
+  opacity: 0.9;
+}
