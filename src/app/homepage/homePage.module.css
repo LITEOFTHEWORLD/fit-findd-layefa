@@ -1,6 +1,5 @@
 .bg {
   background-color: #ffffff;
-  margin-bottom: 10000%;
 }
 
 /* FIRST SECTION */
@@ -8,11 +7,17 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 10px;
+  width: 350px;
+  /* text-align: center;
+  align-items: center;
+  justify-content: center; */
 }
 
 .first_section p {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  padding-left: 5px;
+  font-weight: 700;
 }
 
 .first_section_img {
@@ -27,6 +32,9 @@
   padding: 10px;
   gap: 5px;
   margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .search_bar {
@@ -67,6 +75,7 @@
   padding: 10px 5px;
   border: none;
   border-radius: 6px;
+  text-decoration: none;
 }
 
 /* THIRD SECTION */
@@ -77,6 +86,9 @@
   padding: 8px 10px 0px 15px;
   border-radius: 8px;
   margin: 0px 10px 20px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .third_first_inner {
@@ -84,14 +96,17 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.third_first_inner p:nth-of-type(1) {
+.first_first p:nth-of-type(1) {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+  font-weight: 600;
+  padding-left: -50px;
 }
 
 .third_first_inner p:nth-of-type(2) {
   font-family: "Raleway", sans-serif;
   font-size: 12px;
+  padding-left: 5px;
 }
 
 .third_img {
@@ -107,12 +122,12 @@
   border: none;
   border-radius: 8px;
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 /* FOURTH SECTION */
 .fourth_section {
-  margin: 10px;
+  margin: 10px 10px 50px 10px;
 }
 
 .fourth_first_inner {
@@ -123,6 +138,8 @@
 .fourth_first_inner p {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
 }
 
 .fourth_link {
@@ -135,12 +152,131 @@
 
 .fourth_second_inner {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   gap: 10px;
 }
 
-@media only screen and (max-width: 392px) {
+.category_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.category_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category_inner {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.category_item p {
+  margin: 10px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.category_item:hover {
+  transform: scale(1.1);
+}
+
+/* FIFTH SECTION */
+.first_writeup {
+  padding-left: 25px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  /* text-align: center; */
+  gap: 20px;
+  align-items: center;
+  width: 300px;
+  padding: 10px 40px;
+}
+
+.fifth_inner_img_two {
+  position: relative;
+  top: -80px;
+  left: 130px;
+}
+
+.fifth_second_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth_inner_one p:nth-of-type(1) {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.fifth_inner_one p:nth-of-type(2) {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  color: #aeaeae;
+}
+
+.fifth_inner_two p:nth-of-type(1) {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.fifth_inner_two p:nth-of-type(2) {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  color: #aeaeae;
+}
+
+.grid_inner {
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+
+.inner_inner {
+  display: grid;
+}
+
+/* SIXTH SECTION */
+.sixth_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sixth_link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #121212;
+  opacity: 60%;
+}
+
+.sixth_first_inner:hover {
+  color: #654321;
+  transform: scale(1.1);
+}
+
+/* @media only screen and (max-width: 392px) {
   /* FIRST SECTION */
-  .first_section {
+/* .first_section {
     display: flex;
     justify-content: space-between;
     padding: 5px 10px;
@@ -152,13 +288,13 @@
     font-size: 20px;
   }
 
-  .first_section_img {
-    margin-top: 25px;
-    /* padding-top: 20px; */
-  }
+  .first_section_img { */
+/* margin-top: 25px; */
+/* padding-top: 20px; */
+/* } */
 
-  /* SECOND SECTION */
-  .second_section {
+/* SECOND SECTION */
+/* .second_section {
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -183,9 +319,9 @@
     width: 100%;
     padding: 5px;
     font-size: 14px;
-  }
+  } */
 
-  .search_bar input::placeholder {
+/* .search_bar input::placeholder {
     color: #888;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
@@ -195,9 +331,9 @@
     width: 18px;
     height: 18px;
     margin-right: 8px;
-  }
+  } */
 
-  .second_btn {
+/* .second_btn {
     background-color: #654321;
     color: white;
     font-family: "Raleway", sans-serif;
@@ -205,10 +341,10 @@
     padding: 10px 5px;
     border: none;
     border-radius: 6px;
-  }
+  } */
 
-  /* THIRD SECTION */
-  .third_section {
+/* THIRD SECTION */
+/* .third_section {
     background-color: #d1d1d1;
     display: flex;
     justify-content: space-between;
@@ -226,9 +362,9 @@
   .third_first_inner p:nth-of-type(1) {
     font-family: "Raleway", sans-serif;
     font-size: 12px;
-  }
+  } */
 
-  .third_first_inner p:nth-of-type(2) {
+/* .third_first_inner p:nth-of-type(2) {
     font-family: "Raleway", sans-serif;
     font-size: 9px;
   }
@@ -247,10 +383,10 @@
     border-radius: 8px;
     padding: 10px;
     margin-top: 50px;
-  }
+  } */
 
-  /* FOURTH SECTION */
-  .fourth_section {
+/* FOURTH SECTION */
+/* .fourth_section {
     margin: 10px;
     width: 270px;
   }
@@ -276,10 +412,10 @@
   .fourth_second_inner {
     display: flex;
     gap: 10px;
-  }
+  } */
 
-  /* FIFTH SECTION */
-  .fifth_section {
+/* FIFTH SECTION */
+/* .fifth_section {
     width: 270px;
   }
 
@@ -298,5 +434,5 @@
   .fifth_second_inner {
     display: flex;
     justify-content: space-between;
-  }
-}
+  } */
+/* }  */
