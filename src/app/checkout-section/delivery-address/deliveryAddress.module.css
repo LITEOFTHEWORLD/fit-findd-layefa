@@ -24,3 +24,71 @@
   font-weight: 700;
   margin-top: -2px;
 }
+
+/* SECOND SECTION */
+.second_section {
+  margin-top: 20px;
+}
+
+.second_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second_first_inner {
+  display: flex;
+  gap: 10px;
+}
+
+.second_section_img {
+  margin-top: 18px;
+}
+
+.first_section_img2 {
+  margin-top: 17px;
+}
+
+.second_first_inner p:nth-of-type(1) {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.second_first_inner p:nth-of-type(2) {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+/* THIRD SECTION */
+.third_section {
+  margin-top: 250px;
+}
+
+.add_shipping_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 373px;
+  height: 60px;
+  border: 2px dashed brown;
+  border-radius: 10px;
+  background-color: #f9f6f2;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+}
+
+.add_shipping_btn::before {
+  content: "+";
+  margin-right: 10px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.link_part {
+  text-decoration: none;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}

@@ -1,0 +1,89 @@
+.bg {
+  background-color: #ffffff;
+}
+
+.wrapper {
+  max-width: 375px;
+  min-height: 100vh;
+  margin: 0px auto;
+  background-color: #fbfbfb;
+  position: relative;
+  padding: 0px 20px 0px 20px;
+}
+
+/* FIRST SECTION */
+.first_section {
+  text-align: center;
+  margin-top: 60px;
+  border-bottom: 2px dashed #dcdee0;
+  padding-bottom: 20px;
+  padding: 0px 60px 0px 60px;
+}
+
+.first_section p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* SECOND SECTION */
+.second_section {
+  text-align: center;
+}
+
+.second_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second_inner p:nth-of-type(1) {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
+  color: #707070;
+}
+
+.second_inner p:nth-of-type(2) {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.second_inner2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed #dcdee0;
+}
+
+.second_inner2 p:nth-of-type(1) {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
+  color: #707070;
+}
+
+.second_inner2 p:nth-of-type(2) {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.different {
+  background-color: #dedede;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.last {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.second_link {
+  background-color: #654321;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 100px;
+}
