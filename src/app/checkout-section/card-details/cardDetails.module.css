@@ -1,0 +1,125 @@
+.bg {
+  background-color: #ffffff;
+}
+
+.wrapper {
+  max-width: 375px;
+  min-height: 100vh;
+  margin: 0px auto;
+  background-color: #fbfbfb;
+  position: relative;
+  padding: 0px 20px 0px 20px;
+}
+
+/* FIRST SECTION */
+.first_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.first_section p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -2px;
+}
+
+/* SECOND SECTION */
+.second_section {
+  margin-top: 20px;
+}
+
+.second_inner_one {
+  display: flex;
+  gap: 10px;
+}
+
+.second_inner_one p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.second_img {
+  margin-top: 18px;
+}
+
+.second_inner_two {
+  margin-top: -8px;
+}
+
+.second_inner_two p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.second_input {
+  padding: 15px 200px 15px 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d1d1;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.second_inner_three {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.inner_inner {
+  display: flex;
+  border: 1px solid #d1d1d1;
+  padding: 14px 0px 14px 14px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.second_input_three {
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.second_input_two {
+  padding: 15px 0px 15px 15px;
+  border-radius: 8px;
+  border: 1px solid #d1d1d1;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+/* THIRD SECTION */
+.third_section {
+  margin-top: 25px;
+}
+
+.third_first_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third_first_inner p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.third_img {
+  margin-top: 17px;
+}
+
+.third_second_inner {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.third_link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #654321;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  padding: 20px 130px;
+  border-radius: 8px;
+}

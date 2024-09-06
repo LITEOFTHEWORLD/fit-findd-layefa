@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./itemDescription.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import Catalogue from "@/components/catalogue/Catalogue";
+import Footer from "@/components/footer/Footer";
 
 const page = () => {
   return (
@@ -127,8 +129,310 @@ const page = () => {
         {/* ............... */}
 
         {/* FIFTH SECTION */}
-        <section className={styles.fifth_section}></section>
+        <section className={styles.fifth_section}>
+          <div className={styles.fifth_first_inner}>
+            <div className={styles.fifth_inner_inner}>
+              <p>Size type</p>
+              <select name="sizes" id="sizes" className={styles.select_part}>
+                <option value="uk">UK</option>
+                <option value="us">US</option>
+                <option value="london">London</option>
+                <option value="nigeria">Nigeria</option>
+              </select>
+            </div>
+
+            <div className={styles.fifth_inner_inner2}>
+              <p>Size details</p>
+            </div>
+          </div>
+
+          <div className={styles.fifth_second_inner}>
+            <p>XS</p>
+            <p>S</p>
+            <p>M</p>
+            <p>L</p>
+            <p>XL</p>
+            <p>XXL</p>
+          </div>
+        </section>
         {/* ............... */}
+
+        {/* SIXTH SECTION */}
+        <section className={styles.sixth_section}>
+          <p>Delivery</p>
+
+          <div className={styles.first_sixth_inner}>
+            <Image
+              src="/assets/van.svg"
+              alt=""
+              width={24}
+              height={24}
+              className={styles.img_part}
+            />
+            <div>
+              <p>Free delivery when you spend over N300,000</p>
+              <p>Delivery: July 10th</p>
+            </div>
+          </div>
+
+          <div className={styles.second_sixth_inner}>
+            <p className={styles.write}>Our Return Policy</p>
+
+            <div className={styles.sixth_inner_inner}>
+              <Image
+                src="/assets/mask.svg"
+                alt=""
+                width={18.75}
+                height={20.83}
+                className={styles.img_part2}
+              />
+              <p>
+                Get your money back if the quality you ordered <br /> is not
+                what you received
+              </p>
+            </div>
+          </div>
+        </section>
+        {/* ............... */}
+
+        {/* SEVENTH SECTION */}
+        <section className={styles.seventh_section}>
+          <div className={styles.seventh_first_inner}>
+            <p> Customer Reviews (10)</p>
+            <p>View all</p>
+          </div>
+
+          <div className={styles.seventh_second_inner}>
+            <p>Overall ratings:</p>
+            <div className={styles.seventh_img}>
+              <Image src="/assets/star.svg" alt="" width={16.78} height={16} />
+              <Image src="/assets/star.svg" alt="" width={16.78} height={16} />
+              <Image src="/assets/star.svg" alt="" width={16.78} height={16} />
+              <Image src="/assets/star.svg" alt="" width={16.78} height={16} />
+              <Image
+                src="/assets/greystar.svg"
+                alt=""
+                width={16.78}
+                height={16}
+              />
+            </div>
+            <p>4.5</p>
+          </div>
+
+          <div className={styles.seventh_third_inner}>
+            <div className={styles.seventh_fifth_inner}>
+              <p className={styles.write2}>Debbie A</p>
+              <div className={styles.seventh_fourth_inner}>
+                <div className={styles.seventh_second_img}>
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/greystar.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                </div>
+                <p>4.5</p>
+              </div>
+            </div>
+
+            <p className={styles.write3}>06/06/2024</p>
+          </div>
+
+          <div className={styles.seventh_last_inner}>
+            <p>I really love my white jumper a lot, the quality is nice</p>
+          </div>
+
+          <div className={styles.seventh_third_inner}>
+            <div className={styles.seventh_fifth_inner}>
+              <p className={styles.write2}>Debbie A</p>
+              <div className={styles.seventh_fourth_inner}>
+                <div className={styles.seventh_second_img}>
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/greystar.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                </div>
+                <p>4.5</p>
+              </div>
+            </div>
+
+            <p className={styles.write3}>06/06/2024</p>
+          </div>
+
+          <div className={styles.seventh_last_inner}>
+            <p>I really love my white jumper a lot, the quality is nice</p>
+          </div>
+
+          <div className={styles.seventh_third_inner}>
+            <div className={styles.seventh_fifth_inner}>
+              <p className={styles.write2}>Debbie A</p>
+              <div className={styles.seventh_fourth_inner}>
+                <div className={styles.seventh_second_img}>
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/greystar.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                </div>
+                <p>4.5</p>
+              </div>
+            </div>
+
+            <p className={styles.write3}>06/06/2024</p>
+          </div>
+
+          <div className={styles.seventh_last_inner2}>
+            <p>I really love my white jumper a lot, the quality is nice</p>
+
+            <Image
+              src="/assets/littlegown.svg"
+              alt=""
+              width={29}
+              height={23}
+              className={styles.image_part}
+            />
+          </div>
+
+          <div className={styles.seventh_third_inner}>
+            <div className={styles.seventh_fifth_inner}>
+              <p className={styles.write2}>Debbie A</p>
+              <div className={styles.seventh_fourth_inner}>
+                <div className={styles.seventh_second_img}>
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/star.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                  <Image
+                    src="/assets/greystar.svg"
+                    alt=""
+                    width={16.78}
+                    height={16}
+                  />
+                </div>
+                <p>4.5</p>
+              </div>
+            </div>
+
+            <p className={styles.write3}>06/06/2024</p>
+          </div>
+
+          <div className={styles.seventh_last_inner2}>
+            <p>I really love my white jumper a lot, the quality is nice</p>
+
+            <Image
+              src="/assets/littlegown.svg"
+              alt=""
+              width={29}
+              height={23}
+              className={styles.image_part}
+            />
+          </div>
+        </section>
+        {/* ............... */}
+
+        {/* EIGHT SECTION */}
+        <section className={styles.eight_section}>
+          <p>You may also like</p>
+          <Catalogue />
+        </section>
+        {/* ............... */}
+
+        <Footer />
       </div>
     </div>
   );
