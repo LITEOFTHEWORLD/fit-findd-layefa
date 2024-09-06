@@ -9,7 +9,7 @@ const page = () => {
       <div className={styles.wrapper}>
         {/* FIRST SECTION */}
         <section className={styles.first_section}>
-          <Link href="checkout">
+          <Link href="card-details">
             <Image
               src="/assets/arrowback.svg"
               alt=""
@@ -27,29 +27,109 @@ const page = () => {
 
         {/* SECOND SECTION */}
         <section className={styles.second_section}>
-          <div className={styles.second_first_inner}>
-            <Image
-              src="/assets/location.svg"
-              alt=""
-              width={10.06}
-              height={12.67}
-              // className={styles.first_section_img}
-            />
+          <div className={styles.second_inner}>
+            <div className={styles.second_first_inner}>
+              <Image
+                src="/assets/location.svg"
+                alt=""
+                width={10.06}
+                height={12.67}
+                className={styles.second_section_img}
+              />
 
-            <div>
-              <p>Home</p>
-              <p>3,elizabeth street off nathan road ojuelegba Lagos</p>
+              <div>
+                <p>Home</p>
+                <p>
+                  3,elizabeth street off nathan road
+                  <br /> ojuelegba Lagos
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.second_second_inner}>
+              <Image
+                src="/assets/plaincircle.svg"
+                alt=""
+                width={15}
+                height={15}
+                className={styles.first_section_img2}
+              />
             </div>
           </div>
 
-          <div className={styles.second_second_inner}>
-            <Image
-              src="/assets/arrowback.svg"
-              alt=""
-              width={9.92}
-              height={18.48}
-              // className={styles.first_section_img}
-            />
+          <hr />
+
+          <div className={styles.second_inner}>
+            <div className={styles.second_first_inner}>
+              <Image
+                src="/assets/location.svg"
+                alt=""
+                width={10.06}
+                height={12.67}
+                className={styles.second_section_img}
+              />
+
+              <div>
+                <p>Office</p>
+                <p>
+                  3,elizabeth street off nathan road
+                  <br /> ojuelegba Lagos
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.second_second_inner}>
+              <Image
+                src="/assets/plaincircle.svg"
+                alt=""
+                width={15}
+                height={15}
+                className={styles.first_section_img2}
+              />
+            </div>
+          </div>
+
+          <hr />
+
+          <div className={styles.second_inner}>
+            <div className={styles.second_first_inner}>
+              <Image
+                src="/assets/location.svg"
+                alt=""
+                width={10.06}
+                height={12.67}
+                className={styles.second_section_img}
+              />
+
+              <div>
+                <p>Fiance's house </p>
+                <p>
+                  3,elizabeth street off nathan road
+                  <br /> ojuelegba Lagos
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.second_second_inner}>
+              <Image
+                src="/assets/plaincircle.svg"
+                alt=""
+                width={15}
+                height={15}
+                className={styles.first_section_img2}
+              />
+            </div>
+          </div>
+        </section>
+        {/* ................. */}
+
+        {/* THIRD SECTION  */}
+        <section className={styles.third_section}>
+          <div className={styles.add_shipping_btn}>
+            <Link href="payment-confirmation" className={styles.link_part}>
+              {" "}
+              Add new shipping address
+            </Link>
           </div>
         </section>
         {/* ................. */}
