@@ -1,0 +1,11 @@
+.bg {
+  background-color: #ffffff;
+}
+
+.wrapper {
+  max-width: 375px;
+  min-height: 100vh;
+  margin: 0px auto;
+  background-color: #fbfbfb;
+  position: relative;
+}
