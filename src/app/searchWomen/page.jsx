@@ -31,7 +31,7 @@ const page = () => {
           </div>
 
           <div className={styles.search_part}>
-            <Link href="#" className={styles.second_btn}>
+            <Link href="searchedWomen" className={styles.second_btn}>
               Search
             </Link>
           </div>
@@ -46,7 +46,7 @@ const page = () => {
         {/* ............... */}
 
         {/* THIRD SECTION */}
-        <Footer />
+
         {/* ............... */}
       </div>
     </div>

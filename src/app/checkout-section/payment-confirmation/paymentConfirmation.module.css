@@ -85,5 +85,8 @@
   border-radius: 10px;
   color: white;
   text-decoration: none;
-  padding: 20px 100px;
+  padding: 20px 80px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
