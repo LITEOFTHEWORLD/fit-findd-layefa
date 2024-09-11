@@ -1,0 +1,30 @@
+.bg {
+  background-color: #654321;
+  padding: 340px 100px;
+}
+
+.wrapper {
+  max-width: 375px;
+  min-height: 100vh;
+  margin: 0px auto;
+  background-color: #fbfbfb;
+  position: relative;
+}
+
+.bg Link {
+  text-decoration: none;
+}
+
+.bg h2 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  position: relative;
+  left: 20px;
+  bottom: 40px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
